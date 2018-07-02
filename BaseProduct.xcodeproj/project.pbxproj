@@ -18,6 +18,7 @@
 		6EF60E1B20E8C75000C1144C /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 6EF60E1A20E8C75000C1144C /* main.m */; };
 		6EF60E2520E8C75000C1144C /* BaseProductTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6EF60E2420E8C75000C1144C /* BaseProductTests.m */; };
 		6EF60E3020E8C75100C1144C /* BaseProductUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6EF60E2F20E8C75100C1144C /* BaseProductUITests.m */; };
+		6EF60E3F20EA75D900C1144C /* BaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6EF60E3E20EA75D900C1144C /* BaseViewController.m */; };
 		8DC8894AF5BF77355A04F262 /* libPods-BaseProduct.a in Frameworks */ = {isa = PBXBuildFile; fileRef = A7FCBCD0ABBD5C33E276AC81 /* libPods-BaseProduct.a */; };
 /* End PBXBuildFile section */
 
@@ -63,6 +64,8 @@
 		6EF60E2B20E8C75000C1144C /* BaseProductUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BaseProductUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		6EF60E2F20E8C75100C1144C /* BaseProductUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BaseProductUITests.m; sourceTree = "<group>"; };
 		6EF60E3120E8C75100C1144C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6EF60E3D20EA75D900C1144C /* BaseViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BaseViewController.h; sourceTree = "<group>"; };
+		6EF60E3E20EA75D900C1144C /* BaseViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BaseViewController.m; sourceTree = "<group>"; };
 		862430ADD0D3CAC00A282C08 /* Pods-BaseProduct.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BaseProduct.debug.xcconfig"; path = "Pods/Target Support Files/Pods-BaseProduct/Pods-BaseProduct.debug.xcconfig"; sourceTree = "<group>"; };
 		9B797363A0CC4964C819CF9F /* Pods-BaseProduct.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BaseProduct.release.xcconfig"; path = "Pods/Target Support Files/Pods-BaseProduct/Pods-BaseProduct.release.xcconfig"; sourceTree = "<group>"; };
 		A7FCBCD0ABBD5C33E276AC81 /* libPods-BaseProduct.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-BaseProduct.a"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -152,6 +155,8 @@
 				6EF60E1A20E8C75000C1144C /* main.m */,
 				67A6737D20E9CC3500B1C72D /* PrefixHeader.pch */,
 				67A6738120E9F92500B1C72D /* macro.h */,
+				6EF60E3D20EA75D900C1144C /* BaseViewController.h */,
+				6EF60E3E20EA75D900C1144C /* BaseViewController.m */,
 			);
 			path = BaseProduct;
 			sourceTree = "<group>";
@@ -348,6 +353,7 @@
 				6EF60E1B20E8C75000C1144C /* main.m in Sources */,
 				67A6737B20E9C8A100B1C72D /* BullAdvertiseManager.m in Sources */,
 				6EF60E0D20E8C75000C1144C /* AppDelegate.m in Sources */,
+				6EF60E3F20EA75D900C1144C /* BaseViewController.m in Sources */,
 				67A6738020E9F35300B1C72D /* AdvertiseModel.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

@@ -17,4 +17,5 @@
 #import "FLAnimatedImage.h"
 #import "macro.h"
 #import "NSString+Category.h"
+#import "MBProgressHUD.h"
 #endif /* PrefixHeader_pch */

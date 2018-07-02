@@ -3,4 +3,5 @@ target 'BaseProduct' do
 pod 'AFNetworking', '~> 3.2.1'
 pod 'MJExtension', '~> 3.0.15'
 pod 'FLAnimatedImage', '~> 1.0.12'
+pod 'MBProgressHUD', '~> 1.1.0'
 end
