@@ -18,4 +18,9 @@
 #import "macro.h"
 #import "NSString+Category.h"
 #import "MBProgressHUD.h"
+#import "SDImageCache.h"
+#import "UIImageView+WebCache.h"
+#import "SDWebImageManager.h"
+#import "JPUSHService.h"
+#import "MJRefresh.h"
 #endif /* PrefixHeader_pch */
