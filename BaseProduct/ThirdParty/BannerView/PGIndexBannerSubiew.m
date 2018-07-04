@@ -64,8 +64,8 @@
 - (UILabel *)mainLabel {
     if (!_mainLabel) {
         _mainLabel = [[UILabel alloc] init];
-        _mainLabel.textColor = BullColor(0x666666, 1);
-        _mainLabel.font = Font(13);
+//        _mainLabel.textColor = BullColor(0x666666, 1);
+//        _mainLabel.font = Font(13);
         
 //        _mainLabel.userInteractionEnabled = YES;
     }

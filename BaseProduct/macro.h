@@ -30,4 +30,16 @@
 
 
 #define RGBColor(rgbValue,alp) [UIColor colorWithRed:((float)((rgbValue & 0xFF0000) >> 16))/255.0 green:((float)((rgbValue & 0xFF00) >> 8))/255.0 blue:((float)(rgbValue & 0xFF))/255.0 alpha:alp]
+
+// 计算比例
+#define YHiPhone6W 375.0
+#define YHiPhone6H 667.0
+// x比例 1.293750 在iPhone7的屏幕上
+#define YHScaleX UISCREEN_WIDTH / YHiPhone6W
+// y比例 1.295775
+#define YHScaleY UISCREEN_HEIGHT / YHiPhone6H
+// X坐标
+#define LineX(l) l*YHScaleX
+// Y坐标
+#define LineY(l) l*YHScaleY
 #endif /* macro_h */
