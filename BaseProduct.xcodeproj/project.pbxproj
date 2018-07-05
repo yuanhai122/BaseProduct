@@ -12,7 +12,7 @@
 		67A6738820E9FBEB00B1C72D /* NSString+Category.m in Sources */ = {isa = PBXBuildFile; fileRef = 67A6738720E9FBEB00B1C72D /* NSString+Category.m */; };
 		67BE4B5020EC9D9C00BF5567 /* NewPagedFlowView.m in Sources */ = {isa = PBXBuildFile; fileRef = 67BE4B4C20EC9D9B00BF5567 /* NewPagedFlowView.m */; };
 		67BE4B5120EC9D9C00BF5567 /* PGIndexBannerSubiew.m in Sources */ = {isa = PBXBuildFile; fileRef = 67BE4B4F20EC9D9C00BF5567 /* PGIndexBannerSubiew.m */; };
-		67BE4B8820ECCB9700BF5567 /* TipsView.m in Sources */ = {isa = PBXBuildFile; fileRef = 67BE4B8720ECCB9700BF5567 /* TipsView.m */; };
+		67BE4B8820ECCB9700BF5567 /* NewVersionAlertView.m in Sources */ = {isa = PBXBuildFile; fileRef = 67BE4B8720ECCB9700BF5567 /* NewVersionAlertView.m */; };
 		6EF60E0D20E8C75000C1144C /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 6EF60E0C20E8C75000C1144C /* AppDelegate.m */; };
 		6EF60E1020E8C75000C1144C /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6EF60E0F20E8C75000C1144C /* ViewController.m */; };
 		6EF60E1320E8C75000C1144C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6EF60E1120E8C75000C1144C /* Main.storyboard */; };
@@ -55,8 +55,8 @@
 		67BE4B4D20EC9D9C00BF5567 /* PGIndexBannerSubiew.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PGIndexBannerSubiew.h; sourceTree = "<group>"; };
 		67BE4B4E20EC9D9C00BF5567 /* NewPagedFlowView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NewPagedFlowView.h; sourceTree = "<group>"; };
 		67BE4B4F20EC9D9C00BF5567 /* PGIndexBannerSubiew.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PGIndexBannerSubiew.m; sourceTree = "<group>"; };
-		67BE4B8620ECCB9700BF5567 /* TipsView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TipsView.h; sourceTree = "<group>"; };
-		67BE4B8720ECCB9700BF5567 /* TipsView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TipsView.m; sourceTree = "<group>"; };
+		67BE4B8620ECCB9700BF5567 /* NewVersionAlertView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NewVersionAlertView.h; sourceTree = "<group>"; };
+		67BE4B8720ECCB9700BF5567 /* NewVersionAlertView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NewVersionAlertView.m; sourceTree = "<group>"; };
 		6EF60E0820E8C75000C1144C /* BaseProduct.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BaseProduct.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6EF60E0B20E8C75000C1144C /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		6EF60E0C20E8C75000C1144C /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -148,8 +148,8 @@
 		67BE4B8520ECCB0100BF5567 /* 自定义提示框 */ = {
 			isa = PBXGroup;
 			children = (
-				67BE4B8620ECCB9700BF5567 /* TipsView.h */,
-				67BE4B8720ECCB9700BF5567 /* TipsView.m */,
+				67BE4B8620ECCB9700BF5567 /* NewVersionAlertView.h */,
+				67BE4B8720ECCB9700BF5567 /* NewVersionAlertView.m */,
 			);
 			path = "自定义提示框";
 			sourceTree = "<group>";
@@ -412,7 +412,7 @@
 				67BE4B5020EC9D9C00BF5567 /* NewPagedFlowView.m in Sources */,
 				67A6737B20E9C8A100B1C72D /* BullAdvertiseManager.m in Sources */,
 				67BE4B5120EC9D9C00BF5567 /* PGIndexBannerSubiew.m in Sources */,
-				67BE4B8820ECCB9700BF5567 /* TipsView.m in Sources */,
+				67BE4B8820ECCB9700BF5567 /* NewVersionAlertView.m in Sources */,
 				6EF60E0D20E8C75000C1144C /* AppDelegate.m in Sources */,
 				6EF60E3F20EA75D900C1144C /* BaseViewController.m in Sources */,
 				67A6738020E9F35300B1C72D /* AdvertiseModel.m in Sources */,
@@ -586,7 +586,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = VA7AYG7HAT;
+				DEVELOPMENT_TEAM = 26KW7U5BLP;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)/BaseProduct/ThirdParty/UMSocial/analytics/analytics_ios_5.5.0",
@@ -622,7 +622,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = VA7AYG7HAT;
+				DEVELOPMENT_TEAM = 26KW7U5BLP;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)/BaseProduct/ThirdParty/UMSocial/analytics/analytics_ios_5.5.0",
