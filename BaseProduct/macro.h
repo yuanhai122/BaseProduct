@@ -58,6 +58,8 @@
 // Y坐标
 #define LineY(l) l*YHScaleY
 
+// 颜色设置
+#define rgb(r,g,b) [UIColor colorWithRed:(r)/255.f green:(g)/255.f blue:(b)/255.f alpha:1.f]
 //多语言
 #define localizedString(key) [[ChangeLanguage bundle] localizedStringForKey:key value:nil table:@"English"]
 #endif /* macro_h */
