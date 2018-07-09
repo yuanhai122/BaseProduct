@@ -27,4 +27,5 @@
 #import <UShareUI/UShareUI.h>
 #import <UMCommon/UMCommon.h>
 #import <UMAnalytics/MobClick.h>
+#import "ChangeLanguage.h"
 #endif /* PrefixHeader_pch */

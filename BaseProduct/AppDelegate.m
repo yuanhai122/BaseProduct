@@ -30,6 +30,7 @@ static BOOL isProduction = NO;
     [self bull_JPushConfigWithLaunchOptions:launchOptions];//极光
     [self setRootAndAdvertise];
     [UIApplication sharedApplication].statusBarStyle = UIStatusBarStyleLightContent;
+    [ChangeLanguage initUserLanguage];
     return YES;
 }
 

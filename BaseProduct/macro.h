@@ -57,4 +57,7 @@
 #define LineX(l) l*YHScaleX
 // Y坐标
 #define LineY(l) l*YHScaleY
+
+//多语言
+#define localizedString(key) [[ChangeLanguage bundle] localizedStringForKey:key value:nil table:@"English"]
 #endif /* macro_h */

@@ -46,6 +46,8 @@
 		6EF60E2520E8C75000C1144C /* BaseProductTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6EF60E2420E8C75000C1144C /* BaseProductTests.m */; };
 		6EF60E3020E8C75100C1144C /* BaseProductUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6EF60E2F20E8C75100C1144C /* BaseProductUITests.m */; };
 		6EF60E3F20EA75D900C1144C /* BaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6EF60E3E20EA75D900C1144C /* BaseViewController.m */; };
+		6EF60E4420F2113800C1144C /* English.strings in Resources */ = {isa = PBXBuildFile; fileRef = 6EF60E4620F2113800C1144C /* English.strings */; };
+		6EF60E4A20F2125C00C1144C /* ChangeLanguage.m in Sources */ = {isa = PBXBuildFile; fileRef = 6EF60E4920F2125C00C1144C /* ChangeLanguage.m */; };
 		8DC8894AF5BF77355A04F262 /* libPods-BaseProduct.a in Frameworks */ = {isa = PBXBuildFile; fileRef = A7FCBCD0ABBD5C33E276AC81 /* libPods-BaseProduct.a */; };
 /* End PBXBuildFile section */
 
@@ -128,6 +130,12 @@
 		6EF60E3120E8C75100C1144C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		6EF60E3D20EA75D900C1144C /* BaseViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BaseViewController.h; sourceTree = "<group>"; };
 		6EF60E3E20EA75D900C1144C /* BaseViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BaseViewController.m; sourceTree = "<group>"; };
+		6EF60E4020F210D100C1144C /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hans"; path = "zh-Hans.lproj/Main.strings"; sourceTree = "<group>"; };
+		6EF60E4120F210D200C1144C /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hans"; path = "zh-Hans.lproj/LaunchScreen.strings"; sourceTree = "<group>"; };
+		6EF60E4520F2113800C1144C /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/English.strings; sourceTree = "<group>"; };
+		6EF60E4720F2116000C1144C /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hans"; path = "zh-Hans.lproj/English.strings"; sourceTree = "<group>"; };
+		6EF60E4820F2125C00C1144C /* ChangeLanguage.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ChangeLanguage.h; sourceTree = "<group>"; };
+		6EF60E4920F2125C00C1144C /* ChangeLanguage.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ChangeLanguage.m; sourceTree = "<group>"; };
 		862430ADD0D3CAC00A282C08 /* Pods-BaseProduct.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BaseProduct.debug.xcconfig"; path = "Pods/Target Support Files/Pods-BaseProduct/Pods-BaseProduct.debug.xcconfig"; sourceTree = "<group>"; };
 		9B797363A0CC4964C819CF9F /* Pods-BaseProduct.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BaseProduct.release.xcconfig"; path = "Pods/Target Support Files/Pods-BaseProduct/Pods-BaseProduct.release.xcconfig"; sourceTree = "<group>"; };
 		A7FCBCD0ABBD5C33E276AC81 /* libPods-BaseProduct.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-BaseProduct.a"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -414,7 +422,11 @@
 		6EF60E0A20E8C75000C1144C /* BaseProduct */ = {
 			isa = PBXGroup;
 			children = (
+<<<<<<< HEAD
 				6761551520F30FDD00D0E605 /* UUID */,
+=======
+				6EF60E4B20F2126200C1144C /* ChangeLanguage */,
+>>>>>>> 156845aa2650f44d091ef4d6e5a6deafa7b42a1b
 				67BE4B8520ECCB0100BF5567 /* 自定义提示框 */,
 				67A6738520E9FBD500B1C72D /* Category */,
 				67A6737820E9C88300B1C72D /* 启动页 */,
@@ -452,6 +464,16 @@
 				6EF60E3120E8C75100C1144C /* Info.plist */,
 			);
 			path = BaseProductUITests;
+			sourceTree = "<group>";
+		};
+		6EF60E4B20F2126200C1144C /* ChangeLanguage */ = {
+			isa = PBXGroup;
+			children = (
+				6EF60E4620F2113800C1144C /* English.strings */,
+				6EF60E4820F2125C00C1144C /* ChangeLanguage.h */,
+				6EF60E4920F2125C00C1144C /* ChangeLanguage.m */,
+			);
+			path = ChangeLanguage;
 			sourceTree = "<group>";
 		};
 		85B39B9F893AFF56EF9F15C1 /* Frameworks */ = {
@@ -568,6 +590,7 @@
 			knownRegions = (
 				en,
 				Base,
+				"zh-Hans",
 			);
 			mainGroup = 6EF60DFF20E8C74F00C1144C;
 			productRefGroup = 6EF60E0920E8C75000C1144C /* Products */;
@@ -591,6 +614,7 @@
 				6EF60E1520E8C75000C1144C /* Assets.xcassets in Resources */,
 				6EF60E1320E8C75000C1144C /* Main.storyboard in Resources */,
 				67BE4BB420EE2E1B00BF5567 /* UMCommonLog.bundle in Resources */,
+				6EF60E4420F2113800C1144C /* English.strings in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -658,6 +682,7 @@
 				67A6738820E9FBEB00B1C72D /* NSString+Category.m in Sources */,
 				6EF60E1B20E8C75000C1144C /* main.m in Sources */,
 				67BE4B5020EC9D9C00BF5567 /* NewPagedFlowView.m in Sources */,
+				6EF60E4A20F2125C00C1144C /* ChangeLanguage.m in Sources */,
 				67A6737B20E9C8A100B1C72D /* BullAdvertiseManager.m in Sources */,
 				67BE4B5120EC9D9C00BF5567 /* PGIndexBannerSubiew.m in Sources */,
 				67BE4B8820ECCB9700BF5567 /* NewVersionAlertView.m in Sources */,
@@ -705,6 +730,7 @@
 			isa = PBXVariantGroup;
 			children = (
 				6EF60E1220E8C75000C1144C /* Base */,
+				6EF60E4020F210D100C1144C /* zh-Hans */,
 			);
 			name = Main.storyboard;
 			sourceTree = "<group>";
@@ -713,8 +739,18 @@
 			isa = PBXVariantGroup;
 			children = (
 				6EF60E1720E8C75000C1144C /* Base */,
+				6EF60E4120F210D200C1144C /* zh-Hans */,
 			);
 			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		6EF60E4620F2113800C1144C /* English.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6EF60E4520F2113800C1144C /* en */,
+				6EF60E4720F2116000C1144C /* zh-Hans */,
+			);
+			name = English.strings;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -724,6 +760,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
@@ -782,6 +819,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
@@ -836,7 +874,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = 26KW7U5BLP;
+				DEVELOPMENT_TEAM = VA7AYG7HAT;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)/BaseProduct/ThirdParty/UMSocial/analytics/analytics_ios_5.5.0",
@@ -872,7 +910,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = 26KW7U5BLP;
+				DEVELOPMENT_TEAM = VA7AYG7HAT;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)/BaseProduct/ThirdParty/UMSocial/analytics/analytics_ios_5.5.0",
