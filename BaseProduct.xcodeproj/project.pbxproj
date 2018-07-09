@@ -11,6 +11,7 @@
 		6761551B20F312CF00D0E605 /* KeyChain.m in Sources */ = {isa = PBXBuildFile; fileRef = 6761551A20F312CF00D0E605 /* KeyChain.m */; };
 		6761552720F3471A00D0E605 /* BaseTabBarController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6761552620F3471A00D0E605 /* BaseTabBarController.m */; };
 		6761552A20F3479500D0E605 /* BaseNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6761552920F3479500D0E605 /* BaseNavigationController.m */; };
+		6761552D20F364E300D0E605 /* NetRequestCenter.m in Sources */ = {isa = PBXBuildFile; fileRef = 6761552C20F364E300D0E605 /* NetRequestCenter.m */; };
 		67A6737B20E9C8A100B1C72D /* BullAdvertiseManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 67A6737920E9C8A100B1C72D /* BullAdvertiseManager.m */; };
 		67A6738020E9F35300B1C72D /* AdvertiseModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 67A6737F20E9F35300B1C72D /* AdvertiseModel.m */; };
 		67A6738820E9FBEB00B1C72D /* NSString+Category.m in Sources */ = {isa = PBXBuildFile; fileRef = 67A6738720E9FBEB00B1C72D /* NSString+Category.m */; };
@@ -79,6 +80,8 @@
 		6761552620F3471A00D0E605 /* BaseTabBarController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BaseTabBarController.m; sourceTree = "<group>"; };
 		6761552820F3479500D0E605 /* BaseNavigationController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BaseNavigationController.h; sourceTree = "<group>"; };
 		6761552920F3479500D0E605 /* BaseNavigationController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BaseNavigationController.m; sourceTree = "<group>"; };
+		6761552B20F364E300D0E605 /* NetRequestCenter.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NetRequestCenter.h; sourceTree = "<group>"; };
+		6761552C20F364E300D0E605 /* NetRequestCenter.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NetRequestCenter.m; sourceTree = "<group>"; };
 		67A6737920E9C8A100B1C72D /* BullAdvertiseManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BullAdvertiseManager.m; sourceTree = "<group>"; };
 		67A6737A20E9C8A100B1C72D /* BullAdvertiseManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BullAdvertiseManager.h; sourceTree = "<group>"; };
 		67A6737D20E9CC3500B1C72D /* PrefixHeader.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
@@ -240,6 +243,8 @@
 		67BE4B4A20EC9D6700BF5567 /* ThirdParty */ = {
 			isa = PBXGroup;
 			children = (
+				6EF60E4B20F2126200C1144C /* ChangeLanguage */,
+				6761551520F30FDD00D0E605 /* UUID */,
 				67BE4B8A20EE2DEE00BF5567 /* UMSocial */,
 				67BE4B4B20EC9D8700BF5567 /* BannerView */,
 			);
@@ -442,8 +447,6 @@
 			isa = PBXGroup;
 			children = (
 				6761552420F346C200D0E605 /* BaseVC */,
-				6761551520F30FDD00D0E605 /* UUID */,
-				6EF60E4B20F2126200C1144C /* ChangeLanguage */,
 				67BE4B8520ECCB0100BF5567 /* 自定义提示框 */,
 				67A6738520E9FBD500B1C72D /* Category */,
 				67A6737820E9C88300B1C72D /* 启动页 */,
@@ -459,6 +462,8 @@
 				67A6737D20E9CC3500B1C72D /* PrefixHeader.pch */,
 				67A6738120E9F92500B1C72D /* macro.h */,
 				67BE4B4A20EC9D6700BF5567 /* ThirdParty */,
+				6761552B20F364E300D0E605 /* NetRequestCenter.h */,
+				6761552C20F364E300D0E605 /* NetRequestCenter.m */,
 			);
 			path = BaseProduct;
 			sourceTree = "<group>";
@@ -707,6 +712,7 @@
 				6761551B20F312CF00D0E605 /* KeyChain.m in Sources */,
 				6EF60E3F20EA75D900C1144C /* BaseViewController.m in Sources */,
 				67A6738020E9F35300B1C72D /* AdvertiseModel.m in Sources */,
+				6761552D20F364E300D0E605 /* NetRequestCenter.m in Sources */,
 				6761552A20F3479500D0E605 /* BaseNavigationController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
