@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		6761551820F3103400D0E605 /* KeyChainDataManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 6761551720F3103400D0E605 /* KeyChainDataManager.m */; };
+		6761551B20F312CF00D0E605 /* KeyChain.m in Sources */ = {isa = PBXBuildFile; fileRef = 6761551A20F312CF00D0E605 /* KeyChain.m */; };
 		67A6737B20E9C8A100B1C72D /* BullAdvertiseManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 67A6737920E9C8A100B1C72D /* BullAdvertiseManager.m */; };
 		67A6738020E9F35300B1C72D /* AdvertiseModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 67A6737F20E9F35300B1C72D /* AdvertiseModel.m */; };
 		67A6738820E9FBEB00B1C72D /* NSString+Category.m in Sources */ = {isa = PBXBuildFile; fileRef = 67A6738720E9FBEB00B1C72D /* NSString+Category.m */; };
@@ -65,6 +67,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		6761551620F3103400D0E605 /* KeyChainDataManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = KeyChainDataManager.h; sourceTree = "<group>"; };
+		6761551720F3103400D0E605 /* KeyChainDataManager.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KeyChainDataManager.m; sourceTree = "<group>"; };
+		6761551920F312CF00D0E605 /* KeyChain.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = KeyChain.h; sourceTree = "<group>"; };
+		6761551A20F312CF00D0E605 /* KeyChain.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KeyChain.m; sourceTree = "<group>"; };
 		67A6737920E9C8A100B1C72D /* BullAdvertiseManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BullAdvertiseManager.m; sourceTree = "<group>"; };
 		67A6737A20E9C8A100B1C72D /* BullAdvertiseManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BullAdvertiseManager.h; sourceTree = "<group>"; };
 		67A6737D20E9CC3500B1C72D /* PrefixHeader.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
@@ -173,6 +179,17 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		6761551520F30FDD00D0E605 /* UUID */ = {
+			isa = PBXGroup;
+			children = (
+				6761551620F3103400D0E605 /* KeyChainDataManager.h */,
+				6761551720F3103400D0E605 /* KeyChainDataManager.m */,
+				6761551920F312CF00D0E605 /* KeyChain.h */,
+				6761551A20F312CF00D0E605 /* KeyChain.m */,
+			);
+			path = UUID;
+			sourceTree = "<group>";
+		};
 		67A6737820E9C88300B1C72D /* 启动页 */ = {
 			isa = PBXGroup;
 			children = (
@@ -397,6 +414,7 @@
 		6EF60E0A20E8C75000C1144C /* BaseProduct */ = {
 			isa = PBXGroup;
 			children = (
+				6761551520F30FDD00D0E605 /* UUID */,
 				67BE4B8520ECCB0100BF5567 /* 自定义提示框 */,
 				67A6738520E9FBD500B1C72D /* Category */,
 				67A6737820E9C88300B1C72D /* 启动页 */,
@@ -643,7 +661,9 @@
 				67A6737B20E9C8A100B1C72D /* BullAdvertiseManager.m in Sources */,
 				67BE4B5120EC9D9C00BF5567 /* PGIndexBannerSubiew.m in Sources */,
 				67BE4B8820ECCB9700BF5567 /* NewVersionAlertView.m in Sources */,
+				6761551820F3103400D0E605 /* KeyChainDataManager.m in Sources */,
 				6EF60E0D20E8C75000C1144C /* AppDelegate.m in Sources */,
+				6761551B20F312CF00D0E605 /* KeyChain.m in Sources */,
 				6EF60E3F20EA75D900C1144C /* BaseViewController.m in Sources */,
 				67A6738020E9F35300B1C72D /* AdvertiseModel.m in Sources */,
 			);
@@ -751,7 +771,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
@@ -803,7 +823,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
 				VALIDATE_PRODUCT = YES;
