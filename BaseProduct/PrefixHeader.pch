@@ -28,4 +28,7 @@
 #import <UMCommon/UMCommon.h>
 #import <UMAnalytics/MobClick.h>
 #import "ChangeLanguage.h"
+#import "UIView+Frame.h"
+#import "UIView+Category.h"
+
 #endif /* PrefixHeader_pch */
