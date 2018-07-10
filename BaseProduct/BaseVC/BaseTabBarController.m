@@ -8,6 +8,7 @@
 
 #import "BaseTabBarController.h"
 #import "BaseNavigationController.h"
+#import "FirstViewController.h"
 
 @interface BaseTabBarController ()
 
@@ -36,7 +37,7 @@
 }
 
 - (void)addSubControllers {
-    NSArray *classArr = @[@"", @"", @"", @"",@""];
+    NSArray *classArr = @[@"FirstViewController", @"", @"", @"",@""];
     NSArray *titles = @[@"",@"",@"",@" ",@""];
     NSMutableArray * viewControllers = [[NSMutableArray alloc] init];
     for (int i = 0; i < classArr.count; i++) {
@@ -50,7 +51,7 @@
 }
 
 - (void)formulateTabBarItems {
-    NSArray *titles = @[@"",@"",@"",@"",@""];
+    NSArray *titles = @[@"首页",@"",@"",@"",@""];
     NSArray *images = @[@"", @"", @"", @"",@""];
     NSArray *selectedImages = @[@"", @"", @"", @"",@""];
     //定制子视图的标签

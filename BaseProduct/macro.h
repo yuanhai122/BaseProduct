@@ -60,6 +60,9 @@
 
 // 颜色设置
 #define rgb(r,g,b) [UIColor colorWithRed:(r)/255.f green:(g)/255.f blue:(b)/255.f alpha:1.f]
+//color  0x......
+#define baseColor(rgbValue,alp) [UIColor colorWithRed:((float)((rgbValue & 0xFF0000) >> 16))/255.0 green:((float)((rgbValue & 0xFF00) >> 8))/255.0 blue:((float)(rgbValue & 0xFF))/255.0 alpha:alp]
 //多语言
 #define localizedString(key) [[ChangeLanguage bundle] localizedStringForKey:key value:nil table:@"English"]
+
 #endif /* macro_h */

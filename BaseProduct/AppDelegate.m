@@ -12,6 +12,7 @@
 #import <UserNotifications/UserNotifications.h>
 #endif
 #import "BullAdvertiseManager.h"
+#import "BaseTabBarController.h"
 
 static NSString *channel = @"Publish channel";
 static BOOL isProduction = NO;
