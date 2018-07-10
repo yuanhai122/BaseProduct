@@ -12,6 +12,7 @@
 @interface FirstViewController ()<UICollectionViewDelegate,UICollectionViewDataSource,NewPagedFlowViewDelegate,NewPagedFlowViewDataSource>
 @property (nonatomic, strong) UICollectionView *firstCollectionView;
 @property (nonatomic, strong) NewPagedFlowView *bannerView;//轮播图
+@property (nonatomic, strong) UIPageControl *pageControl;
 @end
 
 @implementation FirstViewController
@@ -21,6 +22,11 @@
     [self setUpNavigation];
 }
 
+- (void)setMJRefresh{
+    MJRefreshNormalHeader *ref_header = [MJRefreshNormalHeader headerWithRefreshingTarget:self refreshingAction:@selector(pullDownRefresh)];
+    ref_header.ignoredScrollViewContentInsetTop = 0;
+    self.firstCollectionView.mj_header = ref_header;
+}
 #pragma mark - 设置导航
 - (void)setUpNavigation {
     UIButton *searchButton = [UIButton buttonWithType:UIButtonTypeCustom];
@@ -146,7 +152,17 @@
         _bannerView.topBottomMargin = 0;
         _bannerView.backgroundColor = [UIColor whiteColor];
         _bannerView.orientation = NewPagedFlowViewOrientationHorizontal;
+        _bannerView = self.pageControl;
     }
     return _bannerView;
+}
+
+- (UIPageControl *)pageControl {
+    if (!_pageControl) {
+        _pageControl = [[UIPageControl alloc] initWithFrame:CGRectZero];
+        _pageControl.currentPageIndicatorTintColor = [UIColor blackColor];
+        _pageControl.pageIndicatorTintColor = [UIColor whiteColor];
+    }
+    return _pageControl;
 }
 @end
