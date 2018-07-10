@@ -23,5 +23,12 @@
 #import "SDWebImageManager.h"
 #import "JPUSHService.h"
 #import "MJRefresh.h"
+#import "KeyChainDataManager.h"
+#import <UShareUI/UShareUI.h>
+#import <UMCommon/UMCommon.h>
+#import <UMAnalytics/MobClick.h>
 #import "ChangeLanguage.h"
+#import "UIView+Frame.h"
+#import "UIView+Category.h"
+
 #endif /* PrefixHeader_pch */
